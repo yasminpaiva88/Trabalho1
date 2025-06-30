@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IncluiWeb - Acessibilidade Digital</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>IncluiWeb</h1>
+    <nav aria-label="Menu principal">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre" tabindex="0">
+      <h2>Sobre o Projeto</h2>
+      <p>O IncluiWeb é uma ferramenta fictícia voltada para promover a inclusão digital, auxiliando desenvolvedores e empresas a avaliar e melhorar a acessibilidade de seus sites e aplicações.</p>
+      <p>Com uma interface intuitiva e relatórios detalhados, o sistema fornece recomendações práticas baseadas nas Diretrizes de Acessibilidade para Conteúdo Web (WCAG).</p>
+    </section>
+
+    <section id="recursos" tabindex="0">
+      <h2>Principais Recursos</h2>
+      <ul>
+        <li>Análise automática de contraste de cores</li>
+        <li>Verificação de uso de elementos semânticos</li>
+        <li>Relatórios com sugestões de correção</li>
+        <li>Tutoriais sobre acessibilidade na web</li>
+      </ul>
+    </section>
+
+    <section id="contato" tabindex="0">
+      <h2>Contato</h2>
+      <p>Este projeto é fictício e foi desenvolvido apenas para fins acadêmicos.</p>
+      <form>
+        <label for="nome">Nome:</label><br />
+        <input type="text" id="nome" name="nome" aria-required="true" /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" aria-required="true" /><br />
+
+        <label for="mensagem">Mensagem:</label><br />
+        <textarea id="mensagem" name="mensagem" rows="5"></textarea><br />
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Este projeto é apenas ilustrativo. Estas páginas foram desenvolvidas como atividade da Disciplina Programação para Web I.</p>
+  </footer>
+</body>
+</html>
